@@ -16,101 +16,123 @@ header {
     height: 80px;
 }
 
+.black-border {
+    border: black dashed 4px;
+}
+
 #logo {
     background-color: #DAA520;
     height: 70%;
     width: 200px;
-    border: black dashed 4px;
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
 }
 
 .link {
     background-color: #DAA520;
     height: 70%;
     width: 800px;
-    border: black dashed 4px;
 }
 
 .login {
     background-color: #DAA520;
     height: 70%;
     width: 200px;
-    border: black dashed 4px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding-right: 10px;
 }
 
-.section1 {
+.container-blue {
     background-color: #00008B;
     height: 550px;
     border-bottom: solid 5px #ADD8E6;
 }
 
-.container1 {
+.box-pink {
     background-color: #EE82EE;
     height: 430px;
-    width: 900px;
-    border: black dashed 4px;
+    width: 60%;
 }
 
-.section2 {
+.container-white {
     background-color: white;
     height: 650px;
     flex-direction: row;
 }
 
-.container2 {
+.box-blue {
     background-color: #1E90FF;
     height: 80%;
     width: 50%;
-    border: black dashed 4px;
 }
 
-.container3 {
+.box-soft-pink {
     background-color: #FFC0CB;
     height: 80%;
     width: 30%;
-    border: black dashed 4px;
 }
 
-.section3 {
+.container-grey {
     background-color: #D3D3D3;
     height: 650px;
-    flex-direction: row-reverse;  
+    flex-direction: row;  
 }
 
-.section4 {
-    background-color: #D3D3D3;
-    height: 1300px;
-    display: flex;
-}
-
-.section4 {
+.box-green {
     background-color: #228B22;
     height: 80%;
     width: 80%;
-    border: black dashed 4px;
 }
 
-.section5 {
+.container-black {
     background-color: #23272A;
     height: 650px;
     flex-direction: row;
     border-bottom: solid 5px white;
 }
 
-.column1 {
+.column-big {
     background-color: #F08080;
     height: 80%;
     width: 25%;
-    border: black dashed 4px;
 }
 
-.column2 {
+.column-small {
     background-color: #20B2AA;
     height: 80%;
-    width: 10%;
+    width: 13.75%;
     border: white dashed 4px;
 }
 
 footer {
     background-color: #23272A;
     height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.box-light-green {
+    background-color: #7FFFD4;
+    width: 80%;
+    height: 70%;
+    align-items: baseline;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#logo-footer {
+    background-color: #FFB6C1;
+    width: 5%;
+    height: 30px;
+}
+
+#bottone {
+    background-color: #FFB6C1;
+    width: 6%;
+    height: 30px;
 }
