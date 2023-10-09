@@ -10,16 +10,39 @@ header {
     height: 80px;
 }
 
-div {
+.div1 {
     background-color: #00008B;
     height: 550px;
     display: flex;
     justify-content: center;
     align-items: center;
+    border-bottom: solid 5px #ADD8E6;
 }
 
-section {
+.section1 {
     background-color: #EE82EE;
     height: 430px;
     width: 900px;
+}
+
+.div2 {
+background-color: white;
+height: 650px;
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+
+}
+
+.section2 {
+    background-color: #1E90FF;
+    height: 80%;
+    width: 50%;
+}
+
+.section3 {
+    background-color: #FFC0CB;
+    height: 80%;
+    width: 30%;
 }
