@@ -8,9 +8,18 @@
 header {
     background-color: #ADD8E6;
     height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-.div1 {
+nav {
+    background-color: #DAA520;
+    height: 70%;
+    width: 1000px;
+}
+
+.section1 {
     background-color: #00008B;
     height: 550px;
     display: flex;
@@ -19,13 +28,14 @@ header {
     border-bottom: solid 5px #ADD8E6;
 }
 
-.section1 {
+.container1 {
     background-color: #EE82EE;
     height: 430px;
     width: 900px;
+    border: black dashed 4px;
 }
 
-.div2 {
+.section2 {
 background-color: white;
 height: 650px;
 display: flex;
@@ -34,19 +44,21 @@ justify-content: center;
 align-items: center;
 }
 
-.section2 {
+.container2 {
     background-color: #1E90FF;
     height: 80%;
     width: 50%;
+    border: black dashed 4px;
 }
 
-.section3 {
+.container3 {
     background-color: #FFC0CB;
     height: 80%;
     width: 30%;
+    border: black dashed 4px;
 }
 
-.div3 {
+.section3 {
     background-color: #D3D3D3;
     height: 650px;
     display: flex;
@@ -55,7 +67,7 @@ align-items: center;
     align-items: center;    
 }
 
-.div4 {
+.section4 {
     background-color: #D3D3D3;
     height: 1300px;
     display: flex;
@@ -67,25 +79,34 @@ align-items: center;
     background-color: #228B22;
     height: 80%;
     width: 80%;
+    border: black dashed 4px;
 }
 
-.div5 {
+.section5 {
     background-color: #23272A;
     height: 650px;
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
+    border-bottom: solid 5px white;
 }
 
-.section5 {
+.column1 {
     background-color: #F08080;
     height: 80%;
     width: 25%;
+    border: black dashed 4px;
 }
 
-.section6 {
+.column2 {
     background-color: #20B2AA;
     height: 80%;
     width: 10%;
+    border: white dashed 4px;
+}
+
+footer {
+    background-color: #23272A;
+    height: 80px;
 }
