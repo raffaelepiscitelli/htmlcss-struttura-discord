@@ -5,26 +5,41 @@
     box-sizing: border-box;
 }
 
-header {
-    background-color: #ADD8E6;
-    height: 80px;
+.flex {
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-nav {
+header {
+    background-color: #ADD8E6;
+    height: 80px;
+}
+
+#logo {
     background-color: #DAA520;
     height: 70%;
-    width: 1000px;
+    width: 200px;
+    border: black dashed 4px;
+}
+
+.link {
+    background-color: #DAA520;
+    height: 70%;
+    width: 800px;
+    border: black dashed 4px;
+}
+
+.login {
+    background-color: #DAA520;
+    height: 70%;
+    width: 200px;
+    border: black dashed 4px;
 }
 
 .section1 {
     background-color: #00008B;
     height: 550px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
     border-bottom: solid 5px #ADD8E6;
 }
 
@@ -36,12 +51,9 @@ nav {
 }
 
 .section2 {
-background-color: white;
-height: 650px;
-display: flex;
-flex-direction: row;
-justify-content: center;
-align-items: center;
+    background-color: white;
+    height: 650px;
+    flex-direction: row;
 }
 
 .container2 {
@@ -61,18 +73,13 @@ align-items: center;
 .section3 {
     background-color: #D3D3D3;
     height: 650px;
-    display: flex;
-    flex-direction: row-reverse;
-    justify-content: center;
-    align-items: center;    
+    flex-direction: row-reverse;  
 }
 
 .section4 {
     background-color: #D3D3D3;
     height: 1300px;
     display: flex;
-    justify-content: center;
-    align-items: center;
 }
 
 .section4 {
@@ -85,10 +92,7 @@ align-items: center;
 .section5 {
     background-color: #23272A;
     height: 650px;
-    display: flex;
     flex-direction: row;
-    justify-content: center;
-    align-items: center;
     border-bottom: solid 5px white;
 }
 
